@@ -110,7 +110,7 @@ const promptReadme = () => {
         },
         {
             type: "input",
-            name: "Email Adress",
+            name: "Email Address",
             message: "Enter your email address. (Required)",
             validate: (emailInput) => {
               if (emailInput) {
@@ -125,7 +125,7 @@ const promptReadme = () => {
       ])
       .then((userInput) => {
         console.log(userInput)
-        return writeToFile('./dist/README.md', genMarkdown(userInput));
+        return writeToFile('./dist/README.md', generateMarkdown(userInput));
         // return genMarkdown(userInput);
       })
       
