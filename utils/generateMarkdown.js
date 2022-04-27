@@ -25,8 +25,7 @@ ${data.installation}
 
 ## Usage
 ${data.usage}
-${renderContrib(data)}
-${renderTests(data)}
+
 ----
 ## Questions
 Feedback and questions are always welcome!

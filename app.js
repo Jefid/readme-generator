@@ -1,7 +1,9 @@
-// TODO: Include packages needed for this application
-const { writeFile, copyFile } = require('./utils/generateMarkdown.js');
 const inquirer = require("inquirer");
-const fs = require("fs");
+const fs = require('fs');
+const genMarkdown = require('./utils/generateMarkdown.js');
+// import genMarkdown from "./src/page-template.js";
+// import writeFile from './utils/gen-md.js'
+// const writeFile = require("./utils/gen-md.js");
 
 //was promptUser
 const promptReadme = () => {
@@ -125,7 +127,7 @@ const promptReadme = () => {
       ])
       .then((userInput) => {
         console.log(userInput)
-        return writeToFile('./dist/README.md', generateMarkdown(userInput));
+        return writeToFile('./dist/README.md', genMarkdown(userInput));
         // return genMarkdown(userInput);
       })
       
