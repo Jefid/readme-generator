@@ -1,13 +1,14 @@
 
-# projecto
+# Mock Up Project
 
 ## Description
-no im not
+its ahs no description right now
+
 ## License
-[![License](https://img.shields.io/badge/Apache-2.0.svg)](https://opensource.org/licenses/MIT,Apache-2.0,ISC)
-<a href='https://opensource.org/licenses/MIT,Apache-2.0,ISC'>
-<img src='https://img.shields.io/badge/License-MIT,Apache-2.0,ISC-blue.svg' />
+<a href='https://opensource.org/licenses/MIT'>
+<img src='https://img.shields.io/badge/License-MIT-blue.svg' />
 </a>
+
 ## Table of Contents
   
 [Installation](#installation)<br>
@@ -19,16 +20,16 @@ no im not
 
 ----
 ## Installation
-i wont
+you install it in the browser
 
 ## Usage
-no
+you can't use it right now
 
 ## Contributing:
-stoooop
+I did
 
 ## Test
-no instructions
+you shouldn't test this app
 
 ----
 ## Questions
