@@ -3,28 +3,37 @@ const fs = require('fs');
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-# ${data.title}
+# ${data.name}
 
 ## Description
 ${data.description}
+
 ## License
-[![License](https://img.shields.io/badge/${data.license}.svg)](https://opensource.org/licenses/${data.license})
 <a href='https://opensource.org/licenses/${data.license}'>
 <img src='https://img.shields.io/badge/License-${data.license}-blue.svg' />
 </a>
+
 ## Table of Contents
   
 [Installation](#installation)<br>
 [Usage](#usage)<br>
+[License](#license)<br>
 [Contributing](#contributing)<br>
 [Tests](#tests)<br>
 [Questions](#questions)<br>
+
 ----
 ## Installation
 ${data.installation}
 
 ## Usage
 ${data.usage}
+
+## Contributing:
+${data.contribution}
+
+## Test
+${data.test}
 
 ----
 ## Questions

@@ -41,7 +41,7 @@ const promptReadme = () => {
         },
         {
             type: "input",
-            name: "Installation",
+            name: "installation",
             message: "Provide a description of how to install the project (Required)",
             validate: (installationInput) => {
               if (installationInput) {
@@ -54,7 +54,7 @@ const promptReadme = () => {
           },
           {
             type: "input",
-            name: "Usage Information",
+            name: "usage",
             message: "Provide a description how to use the project (Required)",
             validate: (usageInput) => {
               if (usageInput) {
@@ -67,7 +67,7 @@ const promptReadme = () => {
           },
           {
             type: "input",
-            name: "Contribution Guidelines",
+            name: "contribution",
             message: "Who contributed to the project? (Separated by spaces and , Required)",
             validate: (contributionInput) => {
               if (contributionInput) {
@@ -80,7 +80,7 @@ const promptReadme = () => {
           },
           {
             type: "input",
-            name: "Test Instructions",
+            name: "test",
             message: "Enter instructions on how to test app (Required)",
             validate: (testInput) => {
               if (testInput) {
@@ -99,7 +99,7 @@ const promptReadme = () => {
           },
         {
           type: "input",
-          name: "GitHub Username",
+          name: "github",
           message: "Enter your GitHub username. (Required)",
           validate: (gitInput) => {
             if (gitInput) {
@@ -112,7 +112,7 @@ const promptReadme = () => {
         },
         {
             type: "input",
-            name: "Email Address",
+            name: "email",
             message: "Enter your email address. (Required)",
             validate: (emailInput) => {
               if (emailInput) {
@@ -123,7 +123,6 @@ const promptReadme = () => {
               }
             },
           },
-
       ])
       .then((userInput) => {
         console.log(userInput)
