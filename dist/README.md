@@ -1,12 +1,12 @@
 
-# Mock Up Project
+# Project Mock up
 
 ## Description
-its ahs no description right now
+no description right now
 
 ## License
-<a href='https://opensource.org/licenses/MIT'>
-<img src='https://img.shields.io/badge/License-MIT-blue.svg' />
+<a href='https://opensource.org/licenses/ISC'>
+<img src='https://img.shields.io/badge/License-ISC-blue.svg' />
 </a>
 
 ## Table of Contents
@@ -20,16 +20,16 @@ its ahs no description right now
 
 ----
 ## Installation
-you install it in the browser
+you can't install it
 
 ## Usage
-you can't use it right now
+you don't want to use it
 
 ## Contributing:
-I did
+Jefferson, and imaginary friends
 
 ## Test
-you shouldn't test this app
+you can't test my app, don't even try
 
 ----
 ## Questions

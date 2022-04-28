@@ -6,7 +6,14 @@ You can quickly and easily generate a README file by using a command-line applic
 
 
 ## Mock Up
-<a href = "./utils/mockup.png"> </a>
+Here's a video showing functionality:
+
+<img src = "utils/mock-up.gif">
+
+[Link To Video](https://drive.google.com/file/d/1ahd6QcuB7Rs9CW39wbv26LdNGl30WCad/view)
+
+
+
 ----
 ## Installation
 First Install Node.js <br>

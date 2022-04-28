@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require("fs");
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -40,8 +40,7 @@ ${data.test}
 Feedback and questions are always welcome!
 [Github](https://github.com/${data.github})
 [Email](mailto:${data.email})
-`
-};
-
+`;
+}
 
 module.exports = generateMarkdown;
